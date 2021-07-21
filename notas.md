@@ -30,6 +30,7 @@
 
 #### Extras:
 
+- Esboço das páginas no Figma -> https://www.figma.com/file/Gg7LR007n2SrVUrBhTn3OL/CARUPI?node-id=0%3A1
 - Link para minha chave e informações de requests -> https://rawg.io/@felipeborges/apikey
 - Api Key -> b46ede88b8a24c799f1b5756b13deb22
 - Paleta de cores -> https://colorhunt.co/palette/f0e3caff8303a357091b1a17

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-
 function Home() {
   return (
     <div className="d-flex flex-column vh-100 justify-content-center align-items-center">
@@ -25,7 +24,7 @@ function Home() {
         role="group"
         aria-label="Basic example"
       >
-        <Link to={"#"}>
+        <Link to={"/gameslist"}>
           <button
             type="button"
             className="btn"
