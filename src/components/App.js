@@ -1,12 +1,14 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import home from "../routeComponents/Home"
+
 function App() {
   return (
-    <div className="App">
+    <div style={{ backgroundColor: "#F0E3CA"}}>
       <BrowserRouter>
         <Switch>
-          <Route></Route>
+          <Route exact path="/" component={home}></Route>
         </Switch>
       </BrowserRouter>
     </div>
