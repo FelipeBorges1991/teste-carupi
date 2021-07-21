@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 function Home() {
   return (
     <div className="d-flex flex-column vh-100 justify-content-center align-items-center">

@@ -27,7 +27,7 @@ O objetivo dessa sessão é explicitar a minha linha de raciocínio, coisas que 
 
 ### 21/07/2021 (2º dia)
 
-- [] Criar e executar componente NavBar
-- [] Criar e executar componente homeList (Renderizar lista de games populares)
+- [ ] Criar e executar componente NavBar
+- [ ] Criar e executar componente homeList (Renderizar lista de games populares)
 
 ### 22/07/2021 (3º dia)
