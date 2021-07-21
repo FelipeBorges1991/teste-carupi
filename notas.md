@@ -33,3 +33,4 @@
 - Link para minha chave e informações de requests -> https://rawg.io/@felipeborges/apikey
 - Api Key -> b46ede88b8a24c799f1b5756b13deb22
 - Paleta de cores -> https://colorhunt.co/palette/f0e3caff8303a357091b1a17
+- Rota para games mais populares -> https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=-added

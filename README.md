@@ -27,7 +27,8 @@ O objetivo dessa sessão é explicitar a minha linha de raciocínio, coisas que 
 
 ### 21/07/2021 (2º dia)
 
-- [ ] Criar e executar componente NavBar
+- [x] Criar e executar componente NavBar
+- [x] Crias folder para baseURL da conexão da API.
 - [ ] Criar e executar componente homeList (Renderizar lista de games populares)
 
 ### 22/07/2021 (3º dia)
