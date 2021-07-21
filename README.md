@@ -29,6 +29,10 @@ O objetivo dessa sessão é explicitar a minha linha de raciocínio, coisas que 
 
 - [x] Criar e executar componente NavBar
 - [x] Crias folder para baseURL da conexão da API.
-- [ ] Criar e executar componente homeList (Renderizar lista de games populares)
+- [x] Criar e executar componente GameList (Renderizar lista de games populares).
+- [x] Estilização com bootstrap do componente GamesList.
+- [x] Transformar as imagens de cada jogo em um link para a rota de detalhes.
+- [ ] Criar e executar o componente da rota GameDetail.
+- [ ] Estilização com bootstrap do componente GameDetail.
 
 ### 22/07/2021 (3º dia)
