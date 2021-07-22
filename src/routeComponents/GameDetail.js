@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 import api from "../apis/index";
 
@@ -31,8 +31,22 @@ function GameDetail() {
   }, [id]);
 
   return (
-    <div className="container-fluid">
-      <h1 className="text-center">{state.name}</h1>
+    <div className="card mb-3" style={{ maxWidth: "540px" }}>
+      <div className="row no-gutters">
+        <div className="col-md-4">
+          <img src={state.background_image} alt="Game poster" />
+        </div>
+        <div className="col-md-8">
+          <div className="card-body">
+            <p className="card-title">
+              <strong>Nome: </strong>
+              {state.name}
+            </p>
+
+            <p className="card-text">Categorias</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

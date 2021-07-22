@@ -34,8 +34,12 @@ O objetivo dessa sessão é explicitar a minha linha de raciocínio, coisas que 
 - [x] Transformar as imagens de cada jogo em um link para a rota de detalhes.
 - [x] Criar e executar o componente da rota GameDetail.
 - [x] Referenciar o ID individual de cada game na rota GameDetail.
-- [ ] Estilização com bootstrap do componente GameDetail.
+- [ ] Iniciar estilização com bootstrap do componente GameDetail.
 
 Tive problemas em conseguir conectar com a API referenciando pelo ID de cada jogo na rota de GameDetail, por isso houve atraso no projeto.
 
 ### 22/07/2021 (3º dia)
+
+- [ ] Finalizar a estilização do componente GameDetail
+- [ ] (extra) Incluir um carrossel no inicio da rota GamesList, com vídeos dos jogos da lista.
+- [ ] Ajustes finais do projeto.
