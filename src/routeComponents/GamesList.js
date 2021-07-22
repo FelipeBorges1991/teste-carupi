@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import api from "../apis/index";
 import "../style/style.css";
+
+import api from "../apis/index";
+import Footer from "../components/Footer";
 
 const myKey = "b46ede88b8a24c799f1b5756b13deb22";
 
@@ -60,6 +62,7 @@ function GamesList() {
           );
         })}
       </div>
+      <Footer/>
     </div>
   );
 }

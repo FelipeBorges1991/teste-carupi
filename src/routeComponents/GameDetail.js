@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
 import api from "../apis/index";
+import Footer from "../components/Footer";
 
 const myKey = "b46ede88b8a24c799f1b5756b13deb22";
 
@@ -42,14 +43,21 @@ function GameDetail() {
         src={game.background_image}
         alt="Game poster"
       ></img>
-      <div className="card mt-3" style={{ backgroundColor: "#FF8303", color:"" }}>
+      <div
+        className="card mt-3"
+        style={{ backgroundColor: "#FF8303", color: "" }}
+      >
         <div className="card-body">
           <div className="d-flex align-items-center">
             <p className="m-2">
               <strong>Categorias:&nbsp;</strong>
             </p>
             {game.genres.map((item) => (
-              <p className="badge badge-dark bg-info m-2" style={{color:"#1B1A17"}} key={item.id}>
+              <p
+                className="badge badge-dark bg-info m-2"
+                style={{ color: "#1B1A17" }}
+                key={item.id}
+              >
                 {item.name}&nbsp;
               </p>
             ))}
@@ -60,7 +68,8 @@ function GameDetail() {
             </p>
             {game.platforms.map((item) => (
               <p
-                className="badge badge-dark bg-light m-2" style={{color:"#1B1A17"}}
+                className="badge badge-dark bg-light m-2"
+                style={{ color: "#1B1A17" }}
                 key={item.platform}
               >
                 {item.platform.name}&nbsp;
@@ -79,6 +88,7 @@ function GameDetail() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
