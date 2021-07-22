@@ -11,7 +11,7 @@ function App() {
     <div
       style={{
         backgroundColor: "#F0E3CA",
-        fontFamily: "sans-serif",
+        fontFamily: "monospace",
         color: "1B1A17",
         minHeight: "900px",
       }}

@@ -6,18 +6,14 @@ function Home() {
       <h1
         className="mb-3"
         style={{
-          fontFamily: "sans-serif",
           color: "#1B1A17",
           fontWeight: "bolder",
         }}
       >
         Teste de Conhecimento Específico - FRONTEND
       </h1>
-      <h3
-        className="mb-5"
-        style={{ fontFamily: "sans-serif", color: "#1B1A17" }}
-      >
-        Empresa: CARUPI
+      <h3 className="mb-5" style={{ color: "#1B1A17" }}>
+        <i>Empresa: CARUPI</i>
       </h3>
       <div
         className="btn-group btn-group-lg container d-flex justify-content-center"
@@ -29,7 +25,6 @@ function Home() {
             type="button"
             className="btn"
             style={{
-              fontFamily: "sans-serif",
               fontWeight: "bolder",
               backgroundColor: "#FF8303",
               color: "#1B1A17",
