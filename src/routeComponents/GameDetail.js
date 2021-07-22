@@ -42,37 +42,37 @@ function GameDetail() {
         src={game.background_image}
         alt="Game poster"
       ></img>
-      <div className="card mt-3" style={{ backgroundColor: "#FF8303" }}>
+      <div className="card mt-3" style={{ backgroundColor: "#FF8303", color:"" }}>
         <div className="card-body">
           <div className="d-flex align-items-center">
             <p className="m-2">
               <strong>Categorias:&nbsp;</strong>
             </p>
             {game.genres.map((item) => (
-              <p className="badge badge-dark bg-primary m-2" key={item.id}>
+              <p className="badge badge-dark bg-info m-2" style={{color:"#1B1A17"}} key={item.id}>
                 {item.name}&nbsp;
               </p>
             ))}
           </div>
-          <div className="d-flex">
+          <div className="d-flex align-items-center">
             <p className="m-2">
               <strong>Plataformas:&nbsp;</strong>
             </p>
             {game.platforms.map((item) => (
               <p
-                className="badge badge-dark bg-primary m-2"
+                className="badge badge-dark bg-light m-2" style={{color:"#1B1A17"}}
                 key={item.platform}
               >
                 {item.platform.name}&nbsp;
               </p>
             ))}
           </div>
-          <div className="d-flex">
+          <div className="d-flex align-items-center">
             <p className="m-2">
               <strong>Desenvolvedor(es):&nbsp;</strong>
             </p>
             {game.developers.map((item) => (
-              <p className="badge badge-dark bg-primary m-2" key={item.id}>
+              <p className="badge badge-dark bg-dark m-2" key={item.id}>
                 {item.name}
               </p>
             ))}

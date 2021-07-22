@@ -40,7 +40,7 @@ Tive problemas em conseguir conectar com a API referenciando pelo ID de cada jog
 
 ### 22/07/2021 (3º dia)
 
-- [ ] Finalizar a estilização do componente GameDetail
+- [x] Finalizar a estilização do componente GameDetail
 - [ ] (extra) Incluir um carrossel no inicio da rota GamesList, com vídeos dos jogos da lista.
 - [ ] Tornar o link das imagens animado com Hover no componente GameList.
 - [ ] Ajustes finais do projeto.

@@ -12,7 +12,7 @@ function App() {
       style={{
         backgroundColor: "#F0E3CA",
         fontFamily: "monospace",
-        color: "1B1A17",
+        color: "#1B1A17",
         minHeight: "900px",
       }}
     >
