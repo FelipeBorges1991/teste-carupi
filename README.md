@@ -43,11 +43,9 @@ Tive problemas em conseguir conectar com a API referenciando pelo ID de cada jog
 - [x] Finalizar a estilização do componente GameDetail
 - [ ] (extra) Incluir um carrossel no inicio da rota GamesList, com vídeos dos jogos da lista.
 - [x] (extra) Tornar o link das imagens animado com Hover no componente GameList.
-- [ ] Inserir referências da API nas páginas onde há requests.
-- [ ] Ajustes finais do projeto.
+- [x] Inserir referências da API nas páginas onde há requests.
+- [x] Ajustes finais do projeto.
+- [ ] Fazer o deploy da aplicação no Netilify.
 
 Para transformar os links das imagens com Hover, optei por acrescentar um componente style.css. Não tive sucesso tentando fazer por Bootstrap.
-
-### 23/07/2021 (4º dia)
-
-- [ ] Fazer o deploy da aplicação no Netilify.
+Mudei de idéia quanto ao Carrossel, não vou inserir.

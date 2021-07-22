@@ -37,7 +37,7 @@ function GamesList() {
           return (
             <div className="col-12 col-sm-4 col-md-3" key={games.id}>
               <div
-                className="card m-2"
+                className="card m-2 border border-none"
                 style={{ width: "18rem", backgroundColor: "#F0E3CA" }}
               >
                 <Link key={games.id} to={`/gamedetail/${games.id}`}>
@@ -62,7 +62,7 @@ function GamesList() {
           );
         })}
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
