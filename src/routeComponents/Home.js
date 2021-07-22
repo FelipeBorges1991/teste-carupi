@@ -12,9 +12,12 @@ function Home() {
       >
         Teste de Conhecimento Específico - FRONTEND
       </h1>
-      <h3 className="mb-5" style={{ color: "#1B1A17" }}>
+      <h3 style={{ color: "#1B1A17" }}>
         <i>Empresa: CARUPI</i>
       </h3>
+      <p className="mb-5">
+        <small>By: Felipe Borges</small>
+      </p>
       <div
         className="btn-group btn-group-lg container d-flex justify-content-center"
         role="group"
