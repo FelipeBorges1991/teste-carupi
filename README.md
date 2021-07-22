@@ -16,7 +16,7 @@
 
 O objetivo dessa sessão é explicitar a minha linha de raciocínio, coisas que eu tentei, conforme o andamento do projeto.
 
-### 20/07/2021 (1º dia)
+### 20/07/2021 (1º dia - Email recebido às 16:24)
 
 - [x] Leitura da documentação da API.
 - [x] Iniciar projeto com "create react app".
@@ -42,5 +42,12 @@ Tive problemas em conseguir conectar com a API referenciando pelo ID de cada jog
 
 - [x] Finalizar a estilização do componente GameDetail
 - [ ] (extra) Incluir um carrossel no inicio da rota GamesList, com vídeos dos jogos da lista.
-- [ ] Tornar o link das imagens animado com Hover no componente GameList.
+- [x] (extra) Tornar o link das imagens animado com Hover no componente GameList.
+- [ ] Inserir referências da API nas páginas onde há requests.
 - [ ] Ajustes finais do projeto.
+
+Para transformar os links das imagens com Hover, optei por acrescentar um componente style.css. Não tive sucesso tentando fazer por Bootstrap.
+
+### 23/07/2021 (4º dia)
+
+- [ ] Fazer o deploy da aplicação no Netilify.

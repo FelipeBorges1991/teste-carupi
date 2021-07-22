@@ -1,4 +1,4 @@
-import house from "../Images/HouseIcon.png";
+import houseIcon from "../Images/house-fill.svg"
 
 function Navbar() {
   return (
@@ -6,9 +6,9 @@ function Navbar() {
       className="navbar navbar-light d-flex justify-content-center"
       style={{ backgroundColor: "#A35709" }}
     >
-      <a className="navbar-brand" href="/">
+      <a className="navbar-brand" href="/gameslist">
         <img
-          src={house}
+          src={houseIcon}
           width="40"
           height="auto"
           className=""
