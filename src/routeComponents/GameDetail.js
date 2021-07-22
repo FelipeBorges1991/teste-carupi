@@ -6,7 +6,7 @@ import api from "../apis/index";
 const myKey = "b46ede88b8a24c799f1b5756b13deb22";
 
 function GameDetail() {
-  const [state, setState] = useState({ 
+  const [state, setState] = useState({
     name: "",
     background_image: "",
     developers: "",
@@ -18,11 +18,11 @@ function GameDetail() {
   useEffect(() => {
     async function fetchOneGame() {
       try {
-        const response = await api.get(`/games?key=${myKey}&/${id}`);
+        const response = await api.get(`/games/${id}?key=${myKey}`);
 
         console.log(response);
 
-        setState(response.data.results);
+        setState({ ...response.data });
       } catch (err) {
         console.error(err);
       }

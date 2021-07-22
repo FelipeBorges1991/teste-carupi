@@ -32,7 +32,10 @@ O objetivo dessa sessão é explicitar a minha linha de raciocínio, coisas que 
 - [x] Criar e executar componente GameList (Renderizar lista de games populares).
 - [x] Estilização com bootstrap do componente GamesList.
 - [x] Transformar as imagens de cada jogo em um link para a rota de detalhes.
-- [ ] Criar e executar o componente da rota GameDetail.
+- [x] Criar e executar o componente da rota GameDetail.
+- [x] Referenciar o ID individual de cada game na rota GameDetail.
 - [ ] Estilização com bootstrap do componente GameDetail.
+
+Tive problemas em conseguir conectar com a API referenciando pelo ID de cada jogo na rota de GameDetail, por isso houve atraso no projeto.
 
 ### 22/07/2021 (3º dia)
