@@ -52,4 +52,4 @@ Mudei de idéia quanto ao Carrossel, não vou inserir.
 
 ## Link para acessar o site
 
-https://teste-carupi.netlify.app/gamedetail/442854
+https://teste-carupi.netlify.app/
