@@ -50,6 +50,6 @@ Tive problemas em conseguir conectar com a API referenciando pelo ID de cada jog
 Para transformar os links das imagens com Hover, optei por acrescentar um componente style.css. Não tive sucesso tentando fazer por Bootstrap.
 Mudei de idéia quanto ao Carrossel, não vou inserir.
 
-##Link para acessar o site
+## Link para acessar o site
 
 https://teste-carupi.netlify.app/gamedetail/442854
