@@ -45,7 +45,11 @@ Tive problemas em conseguir conectar com a API referenciando pelo ID de cada jog
 - [x] (extra) Tornar o link das imagens animado com Hover no componente GameList.
 - [x] Inserir referências da API nas páginas onde há requests.
 - [x] Ajustes finais do projeto.
-- [ ] Fazer o deploy da aplicação no Netilify.
+- [x] Fazer o deploy da aplicação no Netilify.
 
 Para transformar os links das imagens com Hover, optei por acrescentar um componente style.css. Não tive sucesso tentando fazer por Bootstrap.
 Mudei de idéia quanto ao Carrossel, não vou inserir.
+
+## Link para acessar o site
+
+https://teste-carupi.netlify.app/
